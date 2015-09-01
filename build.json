@@ -1,18 +1,23 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "BoltRC/BOLT250-STEALTH",
+    "esc": "DYS/Mini-20A",
+    "motor": "Cobra/CM-2204-2300kv",
+    "fc": "UnknownManufacturer/multirotormania/DragonFly32",
+    "prop": [
+      "Gemfan/5x4.5-FG-BN"
+    ],
+    "arm": "BoltRC/BOLT250----3x5-Arms---ver-1.1",
+    "battery": [
+      "Tattu/3S-1300mAh-75C"
+    ],
+    "osd": "MultiRotorMania/MicroOSD",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "Surveilzone/HS1177-(PZ0420M)-Sony-Super-HAD-II-Ultra-Mini",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "SkyZone/TS5828---32-channel-5.8ghz-600mw-Mini-Video-Transmitter",
+    "blackbox": "ReadyToFlyQuads/SD-Data-Logger",
+    "voltagereg": "Pololu D24V10F5"
+  },
+  "version": 1
 }
